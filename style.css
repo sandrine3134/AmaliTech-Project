@@ -1,0 +1,158 @@
+header ul{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: left;
+    margin-inline: 10px;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    align-items: left;
+    padding: 30px;
+    position: left;
+    font-family: Arial, sans-serif;
+
+}
+header a:hover{
+    background-color: black;
+    color:white;
+}
+
+nav ul{
+justify-content: left;
+display: flex;
+padding: 0px;
+margin: 10px;
+
+}
+
+.object{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    padding: 20px;
+    font-size: 90px;
+    color: white;
+  font-family: Arial, sans-serif;
+  font-weight: none;
+}
+
+
+.about_content{
+padding: 100px;
+    text-align: center;
+    background-color:whitesmoke;
+    font-family: Arial, sans-serif;
+    font-weight: none;
+    margin-top: -30px;
+    
+   
+}
+.development{
+    padding: 100px;
+    text-align: center;
+ line-height: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: none;
+    margin-top: -30px;
+    padding-top: 20px;
+
+}
+.development h2{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: Arial,  sans-serif;
+
+}
+.project-img{
+    display: flex;
+    
+    width: 90%;
+    height: 300px;
+    justify-content: center;
+   margin-left: 350px;
+   padding-right: 10px;
+   margin: auto;
+}
+.project-img img{
+   text-align: center;
+  
+   width: 500px;
+   justify-content: center;
+   
+   margin-right: 20px;
+  
+}
+.section_title{
+    font-size: 30px;
+    font-weight: normal;
+   /* text-decoration: underline;*/
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    padding-top:-10px;
+
+}
+.section{
+
+letter-spacing: 1px;
+line-height: 25px;
+margin-bottom: -4px;
+}
+.about-container {
+   
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.about-detail{
+    line-height: 20px;
+    margin-top: 50px;
+    font-size: 30px;
+   letter-spacing: 2px;
+    font-weight: normal;
+    font-family: Arial,  sans-serif;
+    margin-bottom: 50px;
+}
+.service{
+   
+    text-align: center;
+    background-color: whitesmoke;
+   
+    font-family:Arial,  sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.service-grid{
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-weight: normal;
+    font-family: Arial,  sans-serif;
+   
+}
+.map img{
+    width: 50%;
+   
+}
+.map{
+    background-color: whitesmoke;
+}
+.footer{
+    background-color: black;
+    text-align: end;
+    color: white;
+    margin-top: 30px;
+    margin-left: -30px;
+    margin-bottom: -40px;
+    margin-right: -30px;
+line-height: 5px;
+padding: 20px 20px 20px;
+}
+.footer p{
+    margin:30px 30px 30px;
+    font-family: Arial,  sans-serif;
+    
+    
+}
